@@ -1,0 +1,44 @@
+ memberid |        campusadress         |  lastpurchasedate   
+----------+-----------------------------+---------------------
+        5 | 12345 Lecture Hall Road     | 2023-11-27 00:00:00
+        4 | 67890 Student Center Street | 2023-11-30 00:00:00
+       10 | 567 Learning Drive          | 2023-11-30 00:00:00
+        6 | 7890 Science Avenue         | 2023-11-08 00:00:00
+       13 | 456 College Street          | 2023-10-15 00:00:00
+        2 | 9012 Library Lane           | 2023-11-21 00:00:00
+        7 | 5678 Student Street         | 2023-11-06 00:00:00
+        1 | 9012 Library Lane           | 2023-11-22 00:00:00
+        8 | 1234 Research Circle        | 2023-11-10 00:00:00
+       11 | 234 Academic Lane           | 2023-07-25 00:00:00
+        9 | 890 Lecture Hall Boulevard  | 2023-08-03 00:00:00
+        3 | 3456 Dormitory Drive        | 2023-10-12 00:00:00
+       12 | 789 Campus Road             | 2023-10-16 00:00:00
+(13 rows)
+
+ memberid |      campusadress       | totalspent 
+----------+-------------------------+------------
+       10 | 567 Learning Drive      |     363.49
+       13 | 456 College Street      |     894.60
+       12 | 789 Campus Road         |     468.51
+        1 | 9012 Library Lane       |     523.66
+        5 | 12345 Lecture Hall Road |     694.00
+        8 | 1234 Research Circle    |     390.46
+(6 rows)
+
+ memberid |        campusadress         | spendingrank | totalspent 
+----------+-----------------------------+--------------+------------
+       13 | 456 College Street          |            1 |     894.60
+        5 | 12345 Lecture Hall Road     |            2 |     694.00
+        1 | 9012 Library Lane           |            3 |     523.66
+       12 | 789 Campus Road             |            4 |     468.51
+        8 | 1234 Research Circle        |            5 |     390.46
+       10 | 567 Learning Drive          |            6 |     363.49
+        2 | 9012 Library Lane           |            7 |     269.17
+        4 | 67890 Student Center Street |            8 |     252.89
+        9 | 890 Lecture Hall Boulevard  |            9 |     204.14
+        6 | 7890 Science Avenue         |           10 |     200.37
+        7 | 5678 Student Street         |           11 |     198.91
+       11 | 234 Academic Lane           |           12 |     172.96
+        3 | 3456 Dormitory Drive        |           13 |      76.91
+(13 rows)
+

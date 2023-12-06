@@ -1,0 +1,125 @@
+ memberid |   transactiondate   |         item          | quantity 
+----------+---------------------+-----------------------+----------
+        1 | 2023-02-02 00:00:00 | Tiramisu              |        2
+        1 | 2023-02-13 00:00:00 | Spinach Artichoke Dip |        4
+        1 | 2023-03-22 00:00:00 | Chicken Alfredo       |        1
+        1 | 2023-04-29 00:00:00 | Vegetable Stir-Fry    |        1
+        1 | 2023-05-23 00:00:00 | Spinach Artichoke Dip |        4
+        1 | 2023-06-26 00:00:00 | Spinach Artichoke Dip |        3
+        1 | 2023-06-27 00:00:00 | Chicken Alfredo       |        3
+        1 | 2023-08-02 00:00:00 | Stuffed Mushrooms     |        1
+        1 | 2023-09-14 00:00:00 | Stuffed Mushrooms     |        3
+        1 | 2023-09-18 00:00:00 | Grilled Salmon        |        1
+        1 | 2023-10-07 00:00:00 | Spinach Artichoke Dip |        4
+        1 | 2023-10-12 00:00:00 | Caprese Salad         |        1
+        1 | 2023-11-16 00:00:00 | Chicken Alfredo       |        2
+        1 | 2023-11-22 00:00:00 | Filet Mignon          |        3
+        2 | 2023-02-01 00:00:00 | Cheesecake            |        1
+        2 | 2023-07-25 00:00:00 | Chocolate Lava Cake   |        3
+        2 | 2023-10-02 00:00:00 | Chicken Alfredo       |        4
+        2 | 2023-10-04 00:00:00 | Fruit Tart            |        4
+        2 | 2023-10-20 00:00:00 | Chicken Alfredo       |        2
+        2 | 2023-11-21 00:00:00 | Filet Mignon          |        2
+        3 | 2023-07-21 00:00:00 | Caprese Salad         |        1
+        3 | 2023-10-12 00:00:00 | Filet Mignon          |        3
+        4 | 2023-01-19 00:00:00 | Stuffed Mushrooms     |        3
+        4 | 2023-03-08 00:00:00 | Chocolate Lava Cake   |        3
+        4 | 2023-06-15 00:00:00 | Spinach Artichoke Dip |        3
+        4 | 2023-06-22 00:00:00 | Caprese Salad         |        2
+        4 | 2023-07-23 00:00:00 | Spinach Artichoke Dip |        1
+        4 | 2023-08-04 00:00:00 | Stuffed Mushrooms     |        4
+        4 | 2023-09-03 00:00:00 | Tiramisu              |        2
+        4 | 2023-11-30 00:00:00 | Fruit Tart            |        2
+        5 | 2023-03-04 00:00:00 | Stuffed Mushrooms     |        3
+        5 | 2023-03-10 00:00:00 | Filet Mignon          |        3
+        5 | 2023-04-21 00:00:00 | Stuffed Mushrooms     |        4
+        5 | 2023-05-04 00:00:00 | Stuffed Mushrooms     |        3
+        5 | 2023-05-05 00:00:00 | Vegetable Stir-Fry    |        1
+        5 | 2023-05-24 00:00:00 | Spinach Artichoke Dip |        2
+        5 | 2023-06-23 00:00:00 | Filet Mignon          |        4
+        5 | 2023-07-14 00:00:00 | Grilled Salmon        |        2
+        5 | 2023-07-29 00:00:00 | Filet Mignon          |        4
+        5 | 2023-08-15 00:00:00 | Filet Mignon          |        4
+        5 | 2023-08-23 00:00:00 | Chocolate Lava Cake   |        3
+        5 | 2023-09-20 00:00:00 | Tiramisu              |        3
+        5 | 2023-10-29 00:00:00 | Tiramisu              |        2
+        5 | 2023-11-27 00:00:00 | Caprese Salad         |        2
+        6 | 2023-04-02 00:00:00 | Fruit Tart            |        3
+        6 | 2023-06-20 00:00:00 | Fruit Tart            |        1
+        6 | 2023-06-28 00:00:00 | Fruit Tart            |        4
+        6 | 2023-07-17 00:00:00 | Fruit Tart            |        1
+        6 | 2023-09-14 00:00:00 | Cheesecake            |        2
+        6 | 2023-09-15 00:00:00 | Stuffed Mushrooms     |        1
+        6 | 2023-10-17 00:00:00 | Grilled Salmon        |        1
+        6 | 2023-11-08 00:00:00 | Cheesecake            |        2
+        7 | 2023-04-03 00:00:00 | Stuffed Mushrooms     |        2
+        7 | 2023-04-18 00:00:00 | Shrimp Cocktail       |        2
+        7 | 2023-06-14 00:00:00 | Fruit Tart            |        4
+        7 | 2023-07-23 00:00:00 | Caprese Salad         |        3
+        7 | 2023-09-23 00:00:00 | Vegetable Stir-Fry    |        1
+        7 | 2023-11-06 00:00:00 | Tiramisu              |        4
+        8 | 2023-01-02 00:00:00 | Grilled Salmon        |        3
+        8 | 2023-04-23 00:00:00 | Spinach Artichoke Dip |        2
+        8 | 2023-04-26 00:00:00 | Chocolate Lava Cake   |        3
+        8 | 2023-05-23 00:00:00 | Vegetable Stir-Fry    |        2
+        8 | 2023-06-18 00:00:00 | Cheesecake            |        1
+        8 | 2023-08-08 00:00:00 | Spinach Artichoke Dip |        2
+        8 | 2023-09-27 00:00:00 | Caprese Salad         |        1
+        8 | 2023-10-21 00:00:00 | Fruit Tart            |        4
+        8 | 2023-10-22 00:00:00 | Vegetable Stir-Fry    |        2
+        8 | 2023-11-10 00:00:00 | Spinach Artichoke Dip |        4
+        9 | 2023-03-29 00:00:00 | Grilled Salmon        |        4
+        9 | 2023-06-08 00:00:00 | Fruit Tart            |        2
+        9 | 2023-06-09 00:00:00 | Chicken Alfredo       |        2
+        9 | 2023-07-05 00:00:00 | Caprese Salad         |        2
+        9 | 2023-08-03 00:00:00 | Chicken Alfredo       |        1
+       10 | 2023-01-08 00:00:00 | Chicken Alfredo       |        3
+       10 | 2023-02-27 00:00:00 | Cheesecake            |        1
+       10 | 2023-04-14 00:00:00 | Chicken Alfredo       |        2
+       10 | 2023-05-26 00:00:00 | Chocolate Lava Cake   |        3
+       10 | 2023-06-05 00:00:00 | Caprese Salad         |        4
+       10 | 2023-07-17 00:00:00 | Chicken Alfredo       |        1
+       10 | 2023-09-03 00:00:00 | Stuffed Mushrooms     |        1
+       10 | 2023-11-01 00:00:00 | Chicken Alfredo       |        1
+       10 | 2023-11-30 00:00:00 | Fruit Tart            |        4
+       11 | 2023-02-13 00:00:00 | Spinach Artichoke Dip |        4
+       11 | 2023-03-17 00:00:00 | Tiramisu              |        1
+       11 | 2023-06-28 00:00:00 | Caprese Salad         |        2
+       11 | 2023-07-23 00:00:00 | Fruit Tart            |        3
+       11 | 2023-07-25 00:00:00 | Cheesecake            |        1
+       12 | 2023-01-14 00:00:00 | Stuffed Mushrooms     |        3
+       12 | 2023-02-15 00:00:00 | Grilled Salmon        |        1
+       12 | 2023-02-18 00:00:00 | Caprese Salad         |        4
+       12 | 2023-02-28 00:00:00 | Grilled Salmon        |        4
+       12 | 2023-03-02 00:00:00 | Fruit Tart            |        2
+       12 | 2023-03-19 00:00:00 | Fruit Tart            |        1
+       12 | 2023-03-26 00:00:00 | Stuffed Mushrooms     |        3
+       12 | 2023-04-03 00:00:00 | Chocolate Lava Cake   |        4
+       12 | 2023-04-17 00:00:00 | Chicken Alfredo       |        1
+       12 | 2023-06-25 00:00:00 | Vegetable Stir-Fry    |        3
+       12 | 2023-07-10 00:00:00 | Stuffed Mushrooms     |        1
+       12 | 2023-08-07 00:00:00 | Vegetable Stir-Fry    |        2
+       12 | 2023-10-16 00:00:00 | Shrimp Cocktail       |        3
+       13 | 2023-01-15 00:00:00 | Caprese Salad         |        3
+       13 | 2023-01-20 00:00:00 | Chocolate Lava Cake   |        1
+       13 | 2023-02-10 00:00:00 | Filet Mignon          |        2
+       13 | 2023-02-25 00:00:00 | Stuffed Mushrooms     |        4
+       13 | 2023-03-05 00:00:00 | Tiramisu              |        3
+       13 | 2023-03-20 00:00:00 | Vegetable Stir-Fry    |        1
+       13 | 2023-04-04 00:00:00 | Grilled Salmon        |        2
+       13 | 2023-04-18 00:00:00 | Spinach Artichoke Dip |        5
+       13 | 2023-05-10 00:00:00 | Cheesecake            |        1
+       13 | 2023-05-24 00:00:00 | Chicken Alfredo       |        4
+       13 | 2023-06-07 00:00:00 | Shrimp Cocktail       |        3
+       13 | 2023-06-21 00:00:00 | Fruit Tart            |        2
+       13 | 2023-07-05 00:00:00 | Bruschetta            |        1
+       13 | 2023-07-20 00:00:00 | Caprese Salad         |        5
+       13 | 2023-08-04 00:00:00 | Chocolate Lava Cake   |        1
+       13 | 2023-08-19 00:00:00 | Filet Mignon          |        4
+       13 | 2023-09-03 00:00:00 | Stuffed Mushrooms     |        2
+       13 | 2023-09-17 00:00:00 | Tiramisu              |        3
+       13 | 2023-10-01 00:00:00 | Vegetable Stir-Fry    |        1
+       13 | 2023-10-15 00:00:00 | Bruschetta            |        5
+(120 rows)
+
+INSERT 0 20

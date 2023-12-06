@@ -1,0 +1,90 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+CREATE DATABASE facultyclub;\
+\
+\
+\\c facultyclub;\
+\
+\
+CREATE TABLE allergen_status (\
+    allergenid BIGINT PRIMARY KEY DEFAULT nextval('allergen_status_allergenid_seq'::regclass),\
+    status BOOLEAN,\
+    description TEXT,\
+    foodid BIGINT REFERENCES food(foodid)\
+);\
+\
+CREATE TABLE card (\
+    transactionid BIGINT PRIMARY KEY DEFAULT nextval('transactions_transactionid_seq'::regclass),\
+    memberid INTEGER,\
+    foodid INTEGER,\
+    drinkid INTEGER,\
+    foodquantity INTEGER,\
+    drinkquantity INTEGER,\
+    transactiondate TIMESTAMP WITHOUT TIME ZONE\
+);\
+\
+CREATE TABLE drink (\
+    drinkid BIGINT PRIMARY KEY DEFAULT nextval('drink_drinkid_seq'::regclass),\
+    type CHARACTER VARYING(10) NOT NULL,\
+    price CHARACTER VARYING(10) NOT NULL,\
+    description TEXT NOT NULL,\
+    isalcoholic BOOLEAN\
+);\
+\
+CREATE TABLE food (\
+    foodid BIGINT PRIMARY KEY DEFAULT nextval('food_foodid_seq'::regclass),\
+    type CHARACTER VARYING(100) NOT NULL,\
+    price CHARACTER VARYING(10) NOT NULL,\
+    name CHARACTER VARYING(100) NOT NULL,\
+    description TEXT NOT NULL,\
+    allergenid BIGINT REFERENCES allergen_status(allergenid)\
+);\
+\
+CREATE TABLE member (\
+    memberid BIGINT PRIMARY KEY DEFAULT nextval('member_memberid_seq'::regclass),\
+    joindate DATE NOT NULL,\
+    campusadress CHARACTER VARYING(100) NOT NULL,\
+    yearlyfee CHARACTER VARYING\
+);\
+\
+CREATE TABLE monthlybill (\
+    billid BIGINT PRIMARY KEY DEFAULT nextval('monthlybill_billid_seq'::regclass),\
+    memberid BIGINT REFERENCES member(memberid),\
+    billdate DATE,\
+    itemtype CHARACTER VARYING(100),\
+    charge NUMERIC(6,2)\
+);\
+\
+\
+INSERT INTO allergen_status (allergenid, status, description, foodid) VALUES\
+(1, TRUE, 'Contains nuts', 1),\
+(2, FALSE, 'Gluten-free', 2);\
+\
+INSERT INTO card (transactionid, memberid, foodid, drinkid, foodquantity, drinkquantity, transactiondate) VALUES\
+(1, 123, 1, 1, 2, 1, '2023-12-01 12:00:00'),\
+(2, 124, 2, 2, 1, 3, '2023-12-02 18:30:00');\
+\
+INSERT INTO drink (drinkid, type, price, description, isalcoholic) VALUES\
+(1, 'Soda', '2.50', 'Cola', FALSE),\
+(2, 'Beer', '3.00', 'Lager', TRUE);\
+\
+INSERT INTO food (foodid, type, price, name, description, allergenid) VALUES\
+(1, 'Entree', '10.00', 'Pasta', 'Italian pasta with marinara sauce', 1),\
+(2, 'Dessert', '5.00', 'Cheesecake', 'New York style cheesecake', 2);\
+\
+INSERT INTO member (memberid, joindate, campusadress, yearlyfee) VALUES\
+(123, '2023-01-01', '123 University Lane', '500'),\
+(124, '2023-01-15', '124 University Lane', '550');\
+\
+INSERT INTO monthlybill (billid, memberid, billdate, itemtype, charge) VALUES\
+(1, 123, '2023-12-01', 'Food', 20.00),\
+(2, 124, '2023-12-02', 'Drink', 9.00);\
+\
+\
+}
